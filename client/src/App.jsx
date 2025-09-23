@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import Header from './components/Header'
+
 
 function App() {
   const [date, setDate] = useState("")
@@ -22,10 +24,8 @@ function App() {
 
   return (
     <>
-      
-      <h1>BICIADOS</h1>
+      <Header />
       <h2>fecha de backend {JSON.stringify(date)}</h2>
-      
     </>
   )
 }
