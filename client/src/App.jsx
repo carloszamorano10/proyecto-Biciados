@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Header from './components/Header'
+import Footer from './components/Footer'
+import Carrusel from './components/Carrusel'
+import Map from './components/Map'
 
 
 function App() {
@@ -25,7 +28,9 @@ function App() {
   return (
     <>
       <Header />
-      <h2>fecha de backend {JSON.stringify(date)}</h2>
+      <Carrusel />
+      <Map />
+      <Footer />
     </>
   )
 }
