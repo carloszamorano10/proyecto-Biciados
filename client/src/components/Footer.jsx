@@ -72,11 +72,11 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li className="mb-2">
                 <i className="fas fa-map-marker-alt me-2"></i>
-                <span className="text-secondary">Av. José Miguel Carrera 321</span>
+                <span className="text-secondary">Av. José Miguel Carrera 323</span>
               </li>
               <li className="mb-2">
                 <i className="fas fa-phone me-2"></i>
-                <span className="text-secondary">+1 234 567 890</span>
+                <span className="text-secondary">+569 4321 6789</span>
               </li>
               <li className="mb-2">
                 <i className="fas fa-envelope me-2"></i>

@@ -29,8 +29,12 @@ const Header = () => {
           </ul>
         </div>
           <div>
-            <i class="fa-solid fa-circle-user m-2 p-2"></i>
-            <i class="fa-solid fa-cart-shopping m-2 p-2"></i>
+            <a href="">
+            <i class="fa-solid fa-circle-user m-2 p-2 text-dark text-decoration-none"></i>
+            </a>
+            <a href="">
+            <i class="fa-solid fa-cart-shopping m-2 p-2 text-dark text-decoration-none"></i>
+            </a>
           </div>
       </div>
     </nav>

@@ -4,7 +4,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Carrusel from './components/Carrusel'
 import Map from './components/Map'
-
+import Login from './components/Login'
+import Register from './components/Register'
 
 function App() {
   const [date, setDate] = useState("")
@@ -28,8 +29,10 @@ function App() {
   return (
     <>
       <Header />
-      <Carrusel />
-      <Map />
+     {/* <Carrusel /> */}
+     {/* <Map /> */}
+     {/* <login /> */}
+     <Register />
       <Footer />
     </>
   )
